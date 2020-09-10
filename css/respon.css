@@ -1,7 +1,10 @@
 @media all and (max-width: 1000px){
     .main-content .container, .header .container, .navbar .container, .footer .container{
     width: 100%;
-    }    
+    }
+    .main-content .wrapper-content{
+        width: 25%;
+    }
 }
 
 @media all and (max-width:800px){
@@ -15,12 +18,15 @@
         font-size: 13px;
 }
 
-@media all and (max-width: 630px){
+@media all and (max-width: 670px){
     .main-content .container{
         flex-direction: column;
     }
+    .header{
+        height: 275px;
+    }
     .main-content .wrapper-content{
-       width: 60%;
+       width: 85%;
        margin-bottom: 20px;
     }
 }
