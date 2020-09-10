@@ -1,0 +1,113 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    
+}
+
+.navbar .container{
+    background-color: violet;
+    margin: auto;    
+    height:50px;
+    width: 90%;
+    line-height: 50px;
+}
+.navbar .header-left{
+    float: left;
+}
+.navbar .header-left .logo{
+    margin-left: 20px;
+    color: white;
+}
+.navbar .header-right{
+    float: right;
+}
+.navbar ul li{
+    float: left;
+    list-style: none;
+}
+.navbar .header-right a{    
+    text-decoration: none;
+    color: white;    
+    padding: 17px 20px;
+}
+.navbar .header-right a:hover{
+    background-color: white;
+    color: violet;
+    transition: 0.5s;
+}
+.header {
+    
+}
+.header .container{
+    width: 90%;
+    height: 300px;
+    margin:auto;
+    background:url("/porto/image/laptop.jpg");
+    background-size: cover;    
+    height:300px;    
+    text-align: center;
+    line-height: 300px;
+}
+.header .top{
+    background-color: rgba(255, 255 ,255, 0.5);
+}
+.header h2{
+    font-weight: normal;
+}
+.main-content .container{
+    text-align: justify;
+    padding-top: 20px;
+    margin:auto;
+    width: 90%;
+    background-color: #f7f7f7;
+    display: flex;
+    padding-bottom:20px;
+    flex-direction: row;
+}
+.main-content .wrapper-content{
+    background-color: silver;
+    width:25%;
+    border-radius: 10px;
+    margin: auto;
+    padding: 20px;
+}
+.main-content .heading{
+    margin-bottom: 20px;
+    background-color:white;
+    padding:20px;
+    border-radius: 10px;
+}
+.main-content .content{
+    background:white;
+    border-radius: 10px;
+    padding:20px;
+}
+.footer .container{
+    width: 90%;
+    background-color: violet;
+    padding-top: 20px;
+    margin:auto;
+    height: 100px;
+    
+}
+.footer .footer-left{
+    float:left;
+    margin-left: 20px; 
+    color: white;
+}
+.footer .footer-right{
+    float: right;
+}
+.footer .footer-right ul{
+    list-style: none;
+}
+.footer .footer-right ul li{
+    margin-right: 20px;
+    padding: 5px;
+}
+.footer .footer-right ul li a{
+    text-decoration: none;
+    color: white;
+}

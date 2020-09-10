@@ -1,0 +1,26 @@
+@media all and (max-width: 1000px){
+    .main-content .container, .header .container, .navbar .container, .footer .container{
+    width: 100%;
+    }    
+}
+
+@media all and (max-width:800px){
+    .main-content .container{
+    
+    }
+    .main-content .wrapper-content .heading{
+        font-size: 15px;
+    }
+    .main-content .wrapper-content .content{
+        font-size: 13px;
+}
+
+@media all and (max-width: 630px){
+    .main-content .container{
+        flex-direction: column;
+    }
+    .main-content .wrapper-content{
+       width: 60%;
+       margin-bottom: 20px;
+    }
+}
