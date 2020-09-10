@@ -5,9 +5,12 @@
 body{
     
 }
-
+.navbar{
+    position: fixed;
+    width: 100%;
+}
 .navbar .container{
-    background-color: violet;
+    background-color: rgba(17, 126,123, 0.8);
     margin: auto;    
     height:50px;
     width: 90%;
@@ -34,7 +37,7 @@ body{
 }
 .navbar .header-right a:hover{
     background-color: white;
-    color: violet;
+    color: rgba(17, 126,123, 0.8);;
     transition: 0.5s;
 }
 .header {
@@ -55,6 +58,8 @@ body{
 }
 .header h2{
     font-weight: normal;
+    padding:10px;
+    color:#f7f7f7;
 }
 .main-content .container{
     text-align: justify;
@@ -67,26 +72,25 @@ body{
     flex-direction: row;
 }
 .main-content .wrapper-content{
-    background-color: silver;
-    width:25%;
-    border-radius: 10px;
+    color: white;
+    background-color: rgba(17, 126,123, 0.8);
+    width:28%;
+    border-radius: 0px;
     margin: auto;
     padding: 20px;
+    text-align: center;
 }
 .main-content .heading{
-    margin-bottom: 20px;
-    background-color:white;
-    padding:20px;
-    border-radius: 10px;
+    margin-bottom: 20px;    
+    padding:5px;    
 }
-.main-content .content{
-    background:white;
+.main-content .content{        
     border-radius: 10px;
-    padding:20px;
+    padding:5px;
 }
 .footer .container{
     width: 90%;
-    background-color: violet;
+    background-color: rgba(17, 126,123, 0.8);
     padding-top: 20px;
     margin:auto;
     height: 100px;
