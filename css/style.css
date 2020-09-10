@@ -82,7 +82,8 @@ body{
 }
 .main-content .heading{
     margin-bottom: 20px;    
-    padding:5px;    
+    padding:5px;
+    border-bottom:1px solid; 
 }
 .main-content .content{        
     border-radius: 10px;
